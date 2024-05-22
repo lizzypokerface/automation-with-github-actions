@@ -10,6 +10,9 @@ Building Resilient CI/CD Pipelines and Automating Development Tasks with GitHub 
 ### 02 Event Triggers
 * `02-workflow-events.yaml`
 
+### 03 Workflow Runners
+* `03-workflow-runners.yaml`
+
 # Reference Material
 * [GitHub Actions Documentation](https://docs.github.com/en/actions)
 * [GitHub Actions Course Repository](https://github.com/udemy-lauromueller/github-actions-course)
