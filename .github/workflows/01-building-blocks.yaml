@@ -1,6 +1,10 @@
 name: 01 - Building Blocks
 
-on: push
+# --original config--
+# on: push
+
+on:
+  workflow_dispatch:
 
 jobs:
   echo-hello:
