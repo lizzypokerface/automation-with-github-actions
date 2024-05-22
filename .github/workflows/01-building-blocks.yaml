@@ -1,7 +1,8 @@
 name: 01 - Building Blocks
 
 # --original config--
-# on: push
+# on:
+#   push:
 
 on:
   workflow_dispatch:
