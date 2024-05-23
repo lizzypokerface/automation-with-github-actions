@@ -13,6 +13,9 @@ Building Resilient CI/CD Pipelines and Automating Development Tasks with GitHub 
 ### 03 Workflow Runners
 * `03-workflow-runners.yaml`
 
+### 04 Using Actions
+* `04-using-actions.yaml`
+
 # Reference Material
 * [GitHub Actions Documentation](https://docs.github.com/en/actions)
 * [GitHub Actions Course Repository](https://github.com/udemy-lauromueller/github-actions-course)
