@@ -16,9 +16,13 @@ Building Resilient CI/CD Pipelines and Automating Development Tasks with GitHub 
 ### 04 Using Actions
 * `04-using-actions.yaml`
 
+### 05 Event Filters and Activity Types
+* `05-1-filters-activity-types.yaml`
+* `05-2-filters-activity-types.yaml`
+
 ## How this repository is structured
 
-- Only the most recently created workflow is kept in the .github/workflows directory.
+- Only the most recently created workflow is kept in the .github/workflows directory to prevent unnecessary workflows from being triggered.
 - Unused workflow YAML files are organized into folders named after them, along with their relevant files.
 - To test a specific workflow, move its YAML file into the .github/workflows directory.
 - If multiple workflows are added, they will run in parallel in their own isolated environments.
