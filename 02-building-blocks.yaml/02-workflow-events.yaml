@@ -1,14 +1,10 @@
 name: 02 - Workflow Events
 
-# --original config--
-# on:
-#   push:
-#   pull_request:
-#   schedule:
-#     - cron: '*/5 * * * *'
-#   workflow_dispatch:
-
 on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:

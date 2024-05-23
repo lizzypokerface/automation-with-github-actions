@@ -1,12 +1,8 @@
 name: 03 - Workflow Runners
 
-# --original config--
-# on:
-#   push:
-
 on:
-  workflow_dispatch:
-  
+  push:
+
 jobs:
   ubunto-echo:
     runs-on: ubuntu-latest
