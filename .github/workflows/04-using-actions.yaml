@@ -2,10 +2,6 @@ name: 04 - Using Actions
 
 on: push
 
-# 0. Checkout the code from the repository
-# 1. Install deps of our react application
-# 2. Execute automated tests
-
 jobs:
   build:
     runs-on: ubuntu-latest
