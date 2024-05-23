@@ -20,6 +20,10 @@ Building Resilient CI/CD Pipelines and Automating Development Tasks with GitHub 
 * `05-1-filters-activity-types.yaml`
 * `05-2-filters-activity-types.yaml`
 
+### 06 Contexts
+* `06-contexts.yaml`
+* Access custom variables: Go to Settings> Secrets and variables > Actions > Variables tab
+
 ## How this repository is structured
 
 - Only the most recently created workflow is kept in the .github/workflows directory to prevent unnecessary workflows from being triggered.
