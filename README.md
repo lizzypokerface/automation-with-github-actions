@@ -16,8 +16,14 @@ Building Resilient CI/CD Pipelines and Automating Development Tasks with GitHub 
 ### 04 Using Actions
 * `04-using-actions.yaml`
 
+## How this repository is structured
+
+Unused workflow YAML files are organized into folders named after them, along with their relevant files. Only the most recently created workflow is kept in the `.github/workflows` directory. To test a specific workflow, move its YAML file into the `.github/workflows` directory.
+
+
 # Reference Material
 * [GitHub Actions Documentation](https://docs.github.com/en/actions)
+* [GitHub Actions Marketplace](https://github.com/marketplace?type=actions)
 * [GitHub Actions Course Repository](https://github.com/udemy-lauromueller/github-actions-course)
 * [GitHub Actions Course Example E2E Repository](https://github.com/udemy-lauromueller/github-actions-course-example-e2e)
 * [YAML Tutorial](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started)
