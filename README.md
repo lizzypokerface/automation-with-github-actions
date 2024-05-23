@@ -18,7 +18,10 @@ Building Resilient CI/CD Pipelines and Automating Development Tasks with GitHub 
 
 ## How this repository is structured
 
-Unused workflow YAML files are organized into folders named after them, along with their relevant files. Only the most recently created workflow is kept in the `.github/workflows` directory. To test a specific workflow, move its YAML file into the `.github/workflows` directory.
+- Only the most recently created workflow is kept in the .github/workflows directory.
+- Unused workflow YAML files are organized into folders named after them, along with their relevant files.
+- To test a specific workflow, move its YAML file into the .github/workflows directory.
+- If multiple workflows are added, they will run in parallel in their own isolated environments.
 
 
 # Reference Material
