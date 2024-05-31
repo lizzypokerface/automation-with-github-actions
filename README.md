@@ -24,6 +24,12 @@ Building Resilient CI/CD Pipelines and Automating Development Tasks with GitHub 
 * `06-contexts.yaml`
 * Access custom variables: Go to Settings> Secrets and variables > Actions > Variables tab
 
+### 07 Expressions & Variables
+* `07-expressions.yaml`
+* `08-variables.yaml`
+* Requires the creation of a GitHub organization, a public repository, and two environments within the repository.
+
+
 ## How this repository is structured
 
 - Only the most recently created workflow is kept in the .github/workflows directory to prevent unnecessary workflows from being triggered.
